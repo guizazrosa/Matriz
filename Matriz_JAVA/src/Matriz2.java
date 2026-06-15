@@ -8,7 +8,7 @@ public class Matriz2 {
 
         for (int i = 0; i < matriz.length ; i++) {
             for (int j = 0; j < matriz[0].length; j++) {
-                System.out.print("Digite o número dos espectadores de cada sessão: ");
+                System.out.print("Digite o número dos espectadores da sala + " + (i + 1) + "da sessão" + (j + 1) + ": ");
                 matriz[i][j] = scanner.nextInt();
 
             }
